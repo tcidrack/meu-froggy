@@ -143,8 +143,7 @@ level 23 {
 }
 
 level 24 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-content: center;
+    flex-flow: wrap-reverse column-reverse;
+    justify-content: center;
+    align-content: space-between;
 }
